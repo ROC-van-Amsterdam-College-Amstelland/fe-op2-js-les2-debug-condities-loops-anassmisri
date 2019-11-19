@@ -8,13 +8,17 @@ function getAge()
 {
 var myAge=document.getElementById("myAge").value; //de eerste variabele is voor je aangemaakt...
 
-    if() //vul de juiste voorwaarde in!
+    if(myAge <10) //vul de juiste voorwaarde in!
         {
              //kies code hieronder
+             document.getElementById("body").style.backgroundColor	= "green";
+             document.getElementById("main-nav").style.backgroundColor = "blue";
         }
     else
         {
              //kies code hieronder
+             document.getElementById("body").style.backgroundColor	= "gray";
+             document.getElementById("main-nav").style.backgroundColor = "white";
         }
 }
 
